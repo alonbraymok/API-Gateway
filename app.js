@@ -7,11 +7,11 @@ gateway({
   routes: [
     {
       prefix: "/user",
-      target: "http://localhost:8081",
+      target: "http://ec2-18-221-164-190.us-east-2.compute.amazonaws.com:8081",
     },
     {
       prefix: "/task",
-      target: "http://localhost:8082",
+      target: "http://ec2-18-221-111-85.us-east-2.compute.amazonaws.com:8082",
     },
   ],
 })
